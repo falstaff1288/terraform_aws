@@ -18,7 +18,6 @@ variable "ssh_keypair" {
     public_key = "..."
   }
 }
-
 ```
 Please modify the `key_name` and `public_key` as needed.
 - Everything else is hard-coded. This code wasn't planned to be re-used outside this lab.
