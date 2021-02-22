@@ -21,12 +21,12 @@ Testing an AWS cluster deployment with Terraform using the following modules
 - `make apply` to apply the modifications
 - `make kubeconfig` to install the kubeconfig file
 - Enter a kubectl command to confirm that the cluster is up and running
-- `make destroy` to undo the lab infrastructure
 ```
 kubectl get nodes
 NAME                                         STATUS   ROLES    AGE   VERSION
 ip-10-0-3-61.ca-central-1.compute.internal   Ready    <none>   14m   v1.17.12-eks-7684af
 ```
+- `make destroy` to undo the lab infrastructure
 
 ## Notes
 - Version of *Terraform* used in this lab: `Terraform v0.14.7`
