@@ -79,7 +79,7 @@ module "auto-scaling-group" {
   vpc_zone_identifier	= module.vpc.public_subnets
   health_check_type     = "EC2"
   min_size		= 0
-  max_size		= 2
+  max_size		= 3
   desired_capacity	= 1
   wait_for_capacity_timeout = 0
   
