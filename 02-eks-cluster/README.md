@@ -22,7 +22,7 @@ Testing an AWS cluster deployment with Terraform using the following modules
 - `make kubeconfig` to install the kubeconfig file
 - Enter a kubectl command to confirm that the cluster is up and running
 ```
-kubectl get nodes
+$ kubectl get nodes
 NAME                                         STATUS   ROLES    AGE   VERSION
 ip-10-0-3-61.ca-central-1.compute.internal   Ready    <none>   14m   v1.17.12-eks-7684af
 ```
