@@ -17,17 +17,7 @@ Testing an AWS auto scaling group deployment with Terraform using the following 
 
 ## Notes
 - Version of *Terraform* used in this lab: `Terraform v0.14.7`
-- Aliases of various commands are defined in a `Makefile`. Ex:
-```bash
-# Plan the infrastructure. The result will be saved in a file
-make plan
-
-# Create or update the declared infrastructure
-make apply
-
-# Plan and apply the project
-make all
-```
+- Aliases of various commands are defined in a `Makefile`
 - The AWS credentials are loaded outside Terraform. They can be configured via environnement variables or various other methods. 
 > My credentials are in the file `~/.aws/credentials`
 - The Terraform state file is saved in a S3 bucket. See the file `versions.tf`. Modify the bucket and name file if needed
