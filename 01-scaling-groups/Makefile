@@ -1,7 +1,11 @@
 
 .DEFAULT_GOAL := all
 
-all: plan apply
+all: init plan 
+
+.PHONY: init
+init:
+	terraform init
 
 .PHONY: plan
 plan:
