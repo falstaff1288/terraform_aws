@@ -11,7 +11,7 @@ Testing an AWS auto scaling group deployment with Terraform using the following 
 │   ├── main.tf
 │   ├── Makefile
 │   ├── README.md
-│   ├── variables.tf
+│   ├── variables.tf (need to be added. see below)
 │   └── versions.tf
 ```
 
