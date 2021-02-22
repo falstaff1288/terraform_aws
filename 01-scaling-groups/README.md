@@ -6,7 +6,9 @@ Testing an AWS auto scaling group deployment with Terraform using the following 
 - [security-group](https://registry.terraform.io/modules/terraform-aws-modules/security-group/aws/latest)
 
 ## Notes
-- The AWS credentials are loaded outside Terraform. They can be configured via environnement variables or various other methods
+- Version of *Terraform* used in this lab: `Terraform v0.14.7`
+- The AWS credentials are loaded outside Terraform. They can be configured via environnement variables or various other methods. 
+> My credentials are in the file `~/.aws/credentials`
 - The Terraform state file is saved in a S3 bucket. See the file `versions.tf`. Modify the bucket and name file if needed
 - The SSH keypair configured for the EC2 instances needs to be defined in the file `variables.tf` with the following code structure :
 ```
