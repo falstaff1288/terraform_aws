@@ -1,11 +1,11 @@
 # Lab - Auto scaling group
 ## Description
-Testing an AWS auto scaling group deployment with Terraform using the following Terraform modules
+Testing an AWS auto scaling group deployment with Terraform using the following modules
 - [vpc](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest)
 - [autoscaling](https://registry.terraform.io/modules/terraform-aws-modules/autoscaling/aws/latest)
 - [security-group](https://registry.terraform.io/modules/terraform-aws-modules/security-group/aws/latest)
 
-## Project file structure
+## Lab file structure
 ```
 ├── 01-scaling-groups
 │   ├── main.tf
