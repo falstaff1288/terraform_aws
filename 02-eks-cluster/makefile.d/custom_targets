@@ -1,0 +1,3 @@
+.PHONY: kubeconfig
+kubeconfig:
+	terraform output kubectl_config | grep -v EOT > ~/.kube/config	
