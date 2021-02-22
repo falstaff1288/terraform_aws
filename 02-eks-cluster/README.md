@@ -17,7 +17,7 @@ Testing an AWS cluster deployment with Terraform using the following modules
 
 ```
 ### Instructions
-- `make all` to init and plan the infrastructure. As a safety mesure, applying the modifications is a different tasks.
+- `make all` to init and plan the infrastructure. As a safety mesure, applying the modifications is a different task
 - `make apply` to apply the modifications
 - `make kubeconfig` to install the kubeconfig file
 - Enter a kubectl command to confirm that the cluster is up and running
